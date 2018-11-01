@@ -1,0 +1,1540 @@
+[D 181012 16:06:04 selector_events:65] Using selector: SelectSelector
+[I 181012 16:06:06 web:2162] 304 GET / (127.0.0.1) 11.01ms
+[W 181012 16:06:06 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 4.00ms
+[W 181012 16:06:06 web:2162] 404 GET /images/Service1.png (127.0.0.1) 1.00ms
+[W 181012 16:06:06 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 1.54ms
+[W 181012 16:06:06 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 3.00ms
+[W 181012 16:06:06 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 2.01ms
+[W 181012 16:06:06 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 1.00ms
+[W 181012 16:06:06 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 1.50ms
+[I 181012 16:07:10 web:2162] 304 GET /register.html (127.0.0.1) 183.13ms
+[I 181012 16:07:10 web:2162] 304 GET /static/js/register.js (127.0.0.1) 2.00ms
+[I 181012 16:07:11 web:2162] 200 GET /piccode?prefix_id=&current_id=1539331630173 (127.0.0.1) 1039.53ms
+[I 181012 16:08:39 web:2162] 200 GET /piccode?prefix_id=1539331630173&current_id=1539331719873 (127.0.0.1) 13.01ms
+[I 181012 16:08:40 web:2162] 200 GET /piccode?prefix_id=1539331719873&current_id=1539331720928 (127.0.0.1) 11.03ms
+[I 181012 16:08:41 web:2162] 200 GET /piccode?prefix_id=1539331720928&current_id=1539331721472 (127.0.0.1) 13.01ms
+[I 181012 19:02:54 autoreload:199] D:\Git_first\shop_web\handlers\user.py modified; restarting server
+[D 181012 19:02:55 selector_events:65] Using selector: SelectSelector
+[I 181012 19:14:59 autoreload:199] D:\Git_first\shop_web\config.py modified; restarting server
+[D 181012 19:15:00 selector_events:65] Using selector: SelectSelector
+[I 181012 19:55:52 web:2162] 304 GET /register.html (127.0.0.1) 165.12ms
+[I 181012 19:55:52 web:2162] 304 GET /static/js/register.js (127.0.0.1) 1.00ms
+[E 181012 19:55:52 web:1670] Uncaught exception GET /piccode?prefix_id=&current_id=1539345352756 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='GET', uri='/piccode?prefix_id=&current_id=1539345352756', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 20, in get
+        print('之前一次',pre_id)
+    NameError: name 'pre_id' is not defined
+[E 181012 19:55:52 web:2162] 500 GET /piccode?prefix_id=&current_id=1539345352756 (127.0.0.1) 43.03ms
+[E 181012 19:55:58 web:1670] Uncaught exception GET /piccode?prefix_id=&current_id=1539345358873 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='GET', uri='/piccode?prefix_id=&current_id=1539345358873', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 20, in get
+        print('之前一次',pre_id)
+    NameError: name 'pre_id' is not defined
+[E 181012 19:55:58 web:2162] 500 GET /piccode?prefix_id=&current_id=1539345358873 (127.0.0.1) 2.00ms
+[I 181012 20:05:24 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[E 181012 20:05:24 web:1670] Uncaught exception GET /piccode?prefix_id=&current_id=1539345924325 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='GET', uri='/piccode?prefix_id=&current_id=1539345924325', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 20, in get
+        print('之前一次',pre_id)
+    NameError: name 'pre_id' is not defined
+[E 181012 20:05:24 web:2162] 500 GET /piccode?prefix_id=&current_id=1539345924325 (127.0.0.1) 3.00ms
+[E 181012 20:05:30 web:1670] Uncaught exception GET /piccode?prefix_id=1539345924325&current_id=1539345930444 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='GET', uri='/piccode?prefix_id=1539345924325&current_id=1539345930444', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 20, in get
+        print('之前一次',pre_id)
+    NameError: name 'pre_id' is not defined
+[E 181012 20:05:30 web:2162] 500 GET /piccode?prefix_id=1539345924325&current_id=1539345930444 (127.0.0.1) 2.00ms
+[E 181012 20:05:31 web:1670] Uncaught exception GET /piccode?prefix_id=1539345930444&current_id=1539345931259 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='GET', uri='/piccode?prefix_id=1539345930444&current_id=1539345931259', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 20, in get
+        print('之前一次',pre_id)
+    NameError: name 'pre_id' is not defined
+[E 181012 20:05:31 web:2162] 500 GET /piccode?prefix_id=1539345930444&current_id=1539345931259 (127.0.0.1) 0.99ms
+[E 181012 20:05:31 web:1670] Uncaught exception GET /piccode?prefix_id=1539345931259&current_id=1539345931740 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='GET', uri='/piccode?prefix_id=1539345931259&current_id=1539345931740', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 20, in get
+        print('之前一次',pre_id)
+    NameError: name 'pre_id' is not defined
+[E 181012 20:05:31 web:2162] 500 GET /piccode?prefix_id=1539345931259&current_id=1539345931740 (127.0.0.1) 2.00ms
+[E 181012 20:05:32 web:1670] Uncaught exception GET /piccode?prefix_id=1539345931740&current_id=1539345932123 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='GET', uri='/piccode?prefix_id=1539345931740&current_id=1539345932123', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 20, in get
+        print('之前一次',pre_id)
+    NameError: name 'pre_id' is not defined
+[E 181012 20:05:32 web:2162] 500 GET /piccode?prefix_id=1539345931740&current_id=1539345932123 (127.0.0.1) 1.00ms
+[I 181012 20:05:37 web:2162] 304 GET /register.html (127.0.0.1) 2.00ms
+[E 181012 20:05:37 web:1670] Uncaught exception GET /piccode?prefix_id=&current_id=1539345937324 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='GET', uri='/piccode?prefix_id=&current_id=1539345937324', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 20, in get
+        print('之前一次',pre_id)
+    NameError: name 'pre_id' is not defined
+[E 181012 20:05:37 web:2162] 500 GET /piccode?prefix_id=&current_id=1539345937324 (127.0.0.1) 1.00ms
+[I 181012 20:05:38 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[E 181012 20:05:38 web:1670] Uncaught exception GET /piccode?prefix_id=&current_id=1539345938257 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='GET', uri='/piccode?prefix_id=&current_id=1539345938257', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 20, in get
+        print('之前一次',pre_id)
+    NameError: name 'pre_id' is not defined
+[E 181012 20:05:38 web:2162] 500 GET /piccode?prefix_id=&current_id=1539345938257 (127.0.0.1) 1.00ms
+[I 181012 20:05:38 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[E 181012 20:05:38 web:1670] Uncaught exception GET /piccode?prefix_id=&current_id=1539345938867 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='GET', uri='/piccode?prefix_id=&current_id=1539345938867', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 20, in get
+        print('之前一次',pre_id)
+    NameError: name 'pre_id' is not defined
+[E 181012 20:05:38 web:2162] 500 GET /piccode?prefix_id=&current_id=1539345938867 (127.0.0.1) 1.00ms
+[I 181012 20:06:19 autoreload:199] D:\Git_first\shop_web\handlers\user.py modified; restarting server
+[D 181012 20:06:19 selector_events:65] Using selector: SelectSelector
+[I 181012 20:06:20 web:2162] 304 GET /register.html (127.0.0.1) 376.24ms
+[I 181012 20:06:21 web:2162] 200 GET /piccode?prefix_id=&current_id=1539345980260 (127.0.0.1) 1032.34ms
+[I 181012 20:06:21 web:2162] 304 GET /register.html (127.0.0.1) 2.00ms
+[I 181012 20:06:21 web:2162] 200 GET /piccode?prefix_id=&current_id=1539345981371 (127.0.0.1) 12.01ms
+[I 181012 20:06:28 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181012 20:06:28 web:2162] 200 GET /piccode?prefix_id=&current_id=1539345988287 (127.0.0.1) 11.01ms
+[I 181012 20:07:12 autoreload:199] D:\Git_first\shop_web\config.py modified; restarting server
+[D 181012 20:07:12 selector_events:65] Using selector: SelectSelector
+[I 181012 20:07:13 web:2162] 304 GET /register.html (127.0.0.1) 157.11ms
+[I 181012 20:07:14 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346033226 (127.0.0.1) 1064.44ms
+[I 181012 20:07:16 web:2162] 304 GET /register.html (127.0.0.1) 0.00ms
+[I 181012 20:07:16 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346036612 (127.0.0.1) 11.01ms
+[I 181012 20:07:16 web:2162] 304 GET /register.html (127.0.0.1) 2.00ms
+[I 181012 20:07:16 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346036975 (127.0.0.1) 11.01ms
+[I 181012 20:07:17 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181012 20:07:17 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346037513 (127.0.0.1) 11.01ms
+[I 181012 20:07:17 web:2162] 304 GET /register.html (127.0.0.1) 2.00ms
+[I 181012 20:07:17 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346037763 (127.0.0.1) 12.03ms
+[I 181012 20:07:17 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181012 20:07:17 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346037945 (127.0.0.1) 13.01ms
+[I 181012 20:07:18 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181012 20:07:18 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346038134 (127.0.0.1) 14.01ms
+[I 181012 20:07:18 web:2162] 304 GET /register.html (127.0.0.1) 1.02ms
+[I 181012 20:07:18 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346038329 (127.0.0.1) 10.00ms
+[I 181012 20:07:18 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181012 20:07:18 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346038510 (127.0.0.1) 13.01ms
+[I 181012 20:07:18 web:2162] 304 GET /register.html (127.0.0.1) 2.00ms
+[I 181012 20:07:18 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346038692 (127.0.0.1) 11.01ms
+[I 181012 20:07:18 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181012 20:07:18 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346038871 (127.0.0.1) 14.01ms
+[I 181012 20:07:19 web:2162] 304 GET /register.html (127.0.0.1) 0.00ms
+[I 181012 20:07:19 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346039070 (127.0.0.1) 12.99ms
+[I 181012 20:07:19 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181012 20:07:19 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346039254 (127.0.0.1) 14.01ms
+[I 181012 20:07:19 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181012 20:07:19 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346039423 (127.0.0.1) 9.01ms
+[I 181012 20:07:19 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181012 20:07:19 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346039619 (127.0.0.1) 12.01ms
+[I 181012 20:07:19 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181012 20:07:19 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346039791 (127.0.0.1) 11.01ms
+[I 181012 20:07:19 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181012 20:07:20 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346039993 (127.0.0.1) 14.01ms
+[I 181012 20:07:20 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181012 20:07:20 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346040176 (127.0.0.1) 9.01ms
+[I 181012 20:07:20 web:2162] 304 GET /register.html (127.0.0.1) 2.00ms
+[I 181012 20:07:20 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346040357 (127.0.0.1) 11.01ms
+[I 181012 20:07:20 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181012 20:07:20 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346040529 (127.0.0.1) 14.01ms
+[I 181012 20:07:20 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181012 20:07:20 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346040710 (127.0.0.1) 9.01ms
+[I 181012 20:07:20 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181012 20:07:20 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346040884 (127.0.0.1) 15.01ms
+[I 181012 20:07:20 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181012 20:07:21 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346041039 (127.0.0.1) 11.01ms
+[I 181012 20:08:56 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181012 20:08:56 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346136484 (127.0.0.1) 14.01ms
+[I 181012 20:08:56 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181012 20:08:56 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346136663 (127.0.0.1) 13.01ms
+[I 181012 20:08:56 web:2162] 304 GET /register.html (127.0.0.1) 0.98ms
+[I 181012 20:08:56 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346136858 (127.0.0.1) 13.01ms
+[I 181012 20:08:56 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181012 20:08:57 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346137029 (127.0.0.1) 9.01ms
+[I 181012 20:08:57 web:2162] 304 GET /register.html (127.0.0.1) 2.00ms
+[I 181012 20:08:57 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346137214 (127.0.0.1) 13.01ms
+[I 181012 20:08:57 web:2162] 304 GET /register.html (127.0.0.1) 0.99ms
+[I 181012 20:08:57 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346137377 (127.0.0.1) 13.01ms
+[I 181012 20:08:57 web:2162] 304 GET /register.html (127.0.0.1) 2.00ms
+[I 181012 20:08:57 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346137531 (127.0.0.1) 10.01ms
+[I 181012 20:08:57 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181012 20:08:57 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346137700 (127.0.0.1) 14.01ms
+[I 181012 20:08:57 web:2162] 304 GET /register.html (127.0.0.1) 1.01ms
+[I 181012 20:08:57 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346137871 (127.0.0.1) 11.01ms
+[I 181012 20:08:57 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181012 20:08:58 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346138023 (127.0.0.1) 9.00ms
+[I 181012 20:08:58 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181012 20:08:58 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346138184 (127.0.0.1) 15.01ms
+[I 181012 20:08:58 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181012 20:08:58 web:2162] 200 GET /piccode?prefix_id=&current_id=1539346138323 (127.0.0.1) 11.01ms
+[D 181013 10:02:31 selector_events:65] Using selector: SelectSelector
+[I 181013 10:02:55 web:2162] 304 GET / (127.0.0.1) 45.03ms
+[W 181013 10:02:55 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 48.03ms
+[W 181013 10:02:56 web:2162] 404 GET /images/Service1.png (127.0.0.1) 2.00ms
+[W 181013 10:02:56 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 1.00ms
+[W 181013 10:02:56 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 2.00ms
+[W 181013 10:02:56 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 2.00ms
+[W 181013 10:02:56 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 1.00ms
+[W 181013 10:02:56 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 3.00ms
+[W 181013 10:02:56 web:2162] 404 GET /favicon.ico (127.0.0.1) 1.00ms
+[I 181013 10:03:19 web:2162] 304 GET /register.html (127.0.0.1) 249.24ms
+[I 181013 10:03:19 web:2162] 200 GET /static/js/register.js (127.0.0.1) 1.99ms
+[I 181013 10:03:38 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181013 10:05:01 web:2162] 304 GET /register.html (127.0.0.1) 2.00ms
+[I 181013 10:05:01 web:2162] 200 GET /static/js/register.js (127.0.0.1) 2.00ms
+[I 181013 10:05:12 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181013 10:05:12 web:2162] 304 GET /static/js/register.js (127.0.0.1) 1.00ms
+[I 181013 10:05:20 web:2162] 304 GET / (127.0.0.1) 16.01ms
+[W 181013 10:05:21 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 3.00ms
+[W 181013 10:05:21 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 4.00ms
+[W 181013 10:05:21 web:2162] 404 GET /images/Service1.png (127.0.0.1) 6.01ms
+[W 181013 10:05:21 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 8.01ms
+[W 181013 10:05:21 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 5.00ms
+[W 181013 10:05:21 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 2.00ms
+[W 181013 10:05:21 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 3.00ms
+[I 181013 10:05:23 web:2162] 304 GET /static/js/register.js (127.0.0.1) 1.00ms
+[I 181013 10:05:58 web:2162] 304 GET /register.html (127.0.0.1) 1.99ms
+[I 181013 10:05:58 web:2162] 304 GET /static/js/register.js (127.0.0.1) 2.00ms
+[I 181013 10:05:59 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181013 10:05:59 web:2162] 304 GET /register.html (127.0.0.1) 2.01ms
+[I 181013 10:05:59 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181013 10:05:59 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181013 10:06:22 web:2162] 304 GET / (127.0.0.1) 11.01ms
+[W 181013 10:06:23 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 3.00ms
+[W 181013 10:06:23 web:2162] 404 GET /images/Service1.png (127.0.0.1) 2.00ms
+[W 181013 10:06:23 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 1.00ms
+[W 181013 10:06:23 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 1.00ms
+[W 181013 10:06:23 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 2.00ms
+[W 181013 10:06:23 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 2.00ms
+[W 181013 10:06:23 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 3.00ms
+[I 181013 10:06:26 web:2162] 304 GET /static/js/register.js (127.0.0.1) 2.00ms
+[I 181013 10:07:05 autoreload:199] manage.py modified; restarting server
+[D 181013 10:07:05 selector_events:65] Using selector: SelectSelector
+[I 181013 10:07:07 web:2162] 304 GET /register.html (127.0.0.1) 200.14ms
+[I 181013 10:07:07 web:2162] 304 GET /static/js/register.js (127.0.0.1) 2.00ms
+[I 181013 10:07:09 web:2162] 304 GET / (127.0.0.1) 14.01ms
+[W 181013 10:07:09 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 6.00ms
+[W 181013 10:07:09 web:2162] 404 GET /images/Service1.png (127.0.0.1) 2.00ms
+[W 181013 10:07:09 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 3.01ms
+[W 181013 10:07:09 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 1.00ms
+[W 181013 10:07:09 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 2.00ms
+[W 181013 10:07:09 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 2.00ms
+[W 181013 10:07:09 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 2.00ms
+[I 181013 10:09:51 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181013 10:09:51 web:2162] 200 GET /static/js/register.js (127.0.0.1) 3.00ms
+[I 181013 10:09:52 web:2162] 200 GET /piccode?prefix_id=&current_id=1539396591520 (127.0.0.1) 1317.43ms
+[I 181013 10:09:58 web:2162] 304 GET /register.html (127.0.0.1) 2.00ms
+[I 181013 10:09:58 web:2162] 304 GET /static/js/register.js (127.0.0.1) 2.00ms
+[I 181013 10:09:58 web:2162] 200 GET /piccode?prefix_id=&current_id=1539396598377 (127.0.0.1) 13.02ms
+[I 181013 15:09:55 web:2162] 304 GET / (127.0.0.1) 13.01ms
+[W 181013 15:09:55 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 7.00ms
+[W 181013 15:09:56 web:2162] 404 GET /images/Service1.png (127.0.0.1) 2.00ms
+[W 181013 15:09:56 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 3.00ms
+[W 181013 15:09:56 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 2.00ms
+[W 181013 15:09:56 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 3.01ms
+[W 181013 15:09:56 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 2.00ms
+[W 181013 15:09:56 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 2.00ms
+[W 181013 15:09:56 web:2162] 404 GET /favicon.ico (127.0.0.1) 2.00ms
+[I 181013 15:09:59 web:2162] 304 GET /register.html (127.0.0.1) 2.00ms
+[I 181013 15:09:59 web:2162] 200 GET /static/js/register.js (127.0.0.1) 1.01ms
+[I 181013 15:10:15 web:2162] 304 GET /register.html (127.0.0.1) 2.02ms
+[I 181013 15:10:19 web:2162] 304 GET / (127.0.0.1) 14.01ms
+[W 181013 15:10:20 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 7.02ms
+[W 181013 15:10:20 web:2162] 404 GET /images/Service1.png (127.0.0.1) 1.00ms
+[W 181013 15:10:20 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 1.00ms
+[W 181013 15:10:20 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 4.00ms
+[W 181013 15:10:20 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 2.00ms
+[W 181013 15:10:20 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 2.00ms
+[W 181013 15:10:20 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 1.00ms
+[I 181013 15:11:30 web:2162] 304 GET / (127.0.0.1) 8.01ms
+[W 181013 15:11:30 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 5.00ms
+[W 181013 15:11:30 web:2162] 404 GET /images/Service1.png (127.0.0.1) 1.00ms
+[W 181013 15:11:30 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 1.00ms
+[W 181013 15:11:30 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 3.00ms
+[W 181013 15:11:30 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 2.00ms
+[W 181013 15:11:30 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 1.00ms
+[W 181013 15:11:30 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 1.00ms
+[I 181013 15:11:47 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181013 15:11:47 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181013 15:11:48 web:2162] 304 GET /register.html (127.0.0.1) 2.03ms
+[I 181013 15:11:48 web:2162] 304 GET /register.html (127.0.0.1) 1.00ms
+[I 181013 15:11:52 web:2162] 304 GET / (127.0.0.1) 7.02ms
+[W 181013 15:11:52 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 4.00ms
+[W 181013 15:11:52 web:2162] 404 GET /images/Service1.png (127.0.0.1) 1.00ms
+[W 181013 15:11:52 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 2.00ms
+[W 181013 15:11:52 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 2.00ms
+[W 181013 15:11:52 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 1.00ms
+[W 181013 15:11:52 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 1.00ms
+[W 181013 15:11:52 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 4.00ms
+[I 181013 15:22:17 web:2162] 304 GET / (127.0.0.1) 13.01ms
+[W 181013 15:22:17 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 5.00ms
+[W 181013 15:22:18 web:2162] 404 GET /images/Service1.png (127.0.0.1) 2.00ms
+[W 181013 15:22:18 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 2.00ms
+[W 181013 15:22:18 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 1.00ms
+[W 181013 15:22:18 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 1.00ms
+[W 181013 15:22:18 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 2.00ms
+[W 181013 15:22:18 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 3.00ms
+[I 181013 15:23:20 web:2162] 304 GET / (127.0.0.1) 12.01ms
+[W 181013 15:23:20 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 5.00ms
+[W 181013 15:23:21 web:2162] 404 GET /images/Service1.png (127.0.0.1) 1.00ms
+[W 181013 15:23:21 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 2.00ms
+[W 181013 15:23:21 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 1.00ms
+[W 181013 15:23:21 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 2.00ms
+[W 181013 15:23:21 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 2.00ms
+[W 181013 15:23:21 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 1.00ms
+[D 181013 15:24:12 selector_events:65] Using selector: SelectSelector
+[I 181013 15:24:14 web:2162] 304 GET / (127.0.0.1) 12.01ms
+[W 181013 15:24:15 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 4.00ms
+[W 181013 15:24:15 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 4.00ms
+[W 181013 15:24:15 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 3.00ms
+[W 181013 15:24:15 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 6.00ms
+[W 181013 15:24:15 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 4.00ms
+[W 181013 15:24:15 web:2162] 404 GET /images/Service1.png (127.0.0.1) 3.00ms
+[W 181013 15:24:15 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 3.00ms
+[I 181013 15:25:15 autoreload:199] D:\Git_first\shop_web\handlers\user.py modified; restarting server
+[D 181013 15:26:34 selector_events:65] Using selector: SelectSelector
+[I 181013 15:26:38 web:2162] 200 GET /register.html (127.0.0.1) 197.14ms
+[I 181013 15:26:41 web:2162] 304 GET / (127.0.0.1) 16.01ms
+[W 181013 15:26:42 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 4.00ms
+[W 181013 15:26:42 web:2162] 404 GET /images/Service1.png (127.0.0.1) 2.01ms
+[W 181013 15:26:42 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 2.00ms
+[W 181013 15:26:42 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 2.00ms
+[W 181013 15:26:42 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 2.00ms
+[W 181013 15:26:42 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 2.00ms
+[W 181013 15:26:42 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 3.01ms
+[I 181013 15:29:25 web:2162] 304 GET / (127.0.0.1) 12.01ms
+[W 181013 15:29:26 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 5.00ms
+[W 181013 15:29:27 web:2162] 404 GET /images/Service1.png (127.0.0.1) 2.00ms
+[W 181013 15:29:27 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 1.00ms
+[W 181013 15:29:27 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 2.00ms
+[W 181013 15:29:27 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 2.00ms
+[W 181013 15:29:27 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 2.00ms
+[W 181013 15:29:27 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 1.00ms
+[I 181013 15:29:31 web:2162] 200 GET /register.html? (127.0.0.1) 2.00ms
+[I 181013 15:29:38 web:2162] 304 GET /register.html? (127.0.0.1) 1.00ms
+[I 181013 15:29:41 web:2162] 304 GET / (127.0.0.1) 11.01ms
+[W 181013 15:29:41 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 4.00ms
+[W 181013 15:29:42 web:2162] 404 GET /images/Service1.png (127.0.0.1) 1.00ms
+[W 181013 15:29:42 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 1.00ms
+[W 181013 15:29:42 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 1.00ms
+[W 181013 15:29:42 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 2.00ms
+[W 181013 15:29:42 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 3.00ms
+[W 181013 15:29:42 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 2.00ms
+[I 181013 15:34:42 web:2162] 304 GET / (127.0.0.1) 12.01ms
+[W 181013 15:34:44 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 5.00ms
+[W 181013 15:34:44 web:2162] 404 GET /images/Service1.png (127.0.0.1) 2.01ms
+[W 181013 15:34:44 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 2.00ms
+[W 181013 15:34:44 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 1.00ms
+[W 181013 15:34:44 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 2.01ms
+[W 181013 15:34:44 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 2.00ms
+[W 181013 15:34:44 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 2.00ms
+[I 181013 15:34:46 web:2162] 200 GET /static/js/register.js (127.0.0.1) 4.00ms
+[I 181013 15:34:47 web:2162] 200 GET /piccode?prefix_id=&current_id=1539416086236 (127.0.0.1) 1076.04ms
+[I 181013 15:35:04 web:2162] 200 POST /register (127.0.0.1) 155.11ms
+[I 181013 15:35:04 web:2162] 200 GET /piccode?prefix_id=&current_id=1539416104472 (127.0.0.1) 12.99ms
+[I 181013 15:36:39 autoreload:199] D:\Git_first\shop_web\config.py modified; restarting server
+[D 181013 15:36:39 selector_events:65] Using selector: SelectSelector
+[I 181013 15:37:29 web:2162] 200 GET /piccode?prefix_id=1539416104472&current_id=1539416248193 (127.0.0.1) 1044.19ms
+[I 181013 15:37:29 web:2162] 200 GET /piccode?prefix_id=1539416248193&current_id=1539416248777 (127.0.0.1) 11.02ms
+[I 181013 15:37:29 web:2162] 200 GET /piccode?prefix_id=1539416248777&current_id=1539416249241 (127.0.0.1) 13.02ms
+[I 181013 15:37:29 web:2162] 200 GET /piccode?prefix_id=1539416249241&current_id=1539416249498 (127.0.0.1) 15.01ms
+[I 181013 15:37:29 web:2162] 200 GET /piccode?prefix_id=1539416249498&current_id=1539416249769 (127.0.0.1) 16.01ms
+[I 181013 15:37:29 web:2162] 200 GET /piccode?prefix_id=1539416249769&current_id=1539416249953 (127.0.0.1) 15.03ms
+[I 181013 15:37:58 web:2162] 304 GET /static/js/register.js (127.0.0.1) 218.17ms
+[I 181013 15:37:58 web:2162] 200 GET /piccode?prefix_id=&current_id=1539416278956 (127.0.0.1) 23.02ms
+[I 181013 15:38:10 web:2162] 200 POST /register (127.0.0.1) 5.00ms
+[I 181013 15:38:10 web:2162] 304 GET / (127.0.0.1) 11.01ms
+[W 181013 15:38:10 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 4.00ms
+[W 181013 15:38:10 web:2162] 404 GET /images/Service1.png (127.0.0.1) 2.00ms
+[W 181013 15:38:10 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 2.00ms
+[W 181013 15:38:10 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 2.00ms
+[W 181013 15:38:10 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 2.00ms
+[W 181013 15:38:10 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 1.00ms
+[W 181013 15:38:10 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 2.00ms
+[I 181013 15:38:15 web:2162] 200 GET /piccode?prefix_id=&current_id=1539416295954 (127.0.0.1) 15.01ms
+[I 181013 15:38:34 web:2162] 200 POST /register (127.0.0.1) 11.01ms
+[I 181013 15:38:34 web:2162] 200 GET /piccode?prefix_id=&current_id=1539416314553 (127.0.0.1) 15.01ms
+[I 181013 15:43:12 web:2162] 200 GET /piccode?prefix_id=1539416314553&current_id=1539416592720 (127.0.0.1) 16.01ms
+[I 181013 15:43:22 web:2162] 200 POST /register (127.0.0.1) 2.00ms
+[I 181013 15:43:22 web:2162] 304 GET / (127.0.0.1) 13.01ms
+[W 181013 15:43:22 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 5.01ms
+[W 181013 15:43:22 web:2162] 404 GET /images/Service1.png (127.0.0.1) 2.00ms
+[W 181013 15:43:22 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 2.00ms
+[W 181013 15:43:22 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 1.00ms
+[W 181013 15:43:22 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 1.00ms
+[W 181013 15:43:22 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 3.00ms
+[W 181013 15:43:22 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 1.00ms
+[I 181013 15:43:25 web:2162] 200 GET /piccode?prefix_id=&current_id=1539416605818 (127.0.0.1) 16.02ms
+[I 181013 15:50:19 web:2162] 200 GET /register.html? (127.0.0.1) 2.00ms
+[I 181013 15:50:19 web:2162] 200 GET /static/css/base.css (127.0.0.1) 39.03ms
+[I 181013 15:50:20 web:2162] 200 GET /static/js/register.js (127.0.0.1) 2.00ms
+[I 181013 15:50:20 web:2162] 200 GET /static/js/jquery-2.1.1.min.js (127.0.0.1) 16.05ms
+[I 181013 15:50:20 web:2162] 200 GET /static/css/css.css (127.0.0.1) 23.05ms
+[I 181013 15:50:20 web:2162] 200 GET /piccode?prefix_id=&current_id=1539417020053 (127.0.0.1) 14.01ms
+[I 181013 15:50:20 web:2162] 200 GET /static/images/l-bg.png (127.0.0.1) 11.01ms
+[I 181013 15:50:22 web:2162] 200 GET /piccode?prefix_id=1539417020053&current_id=1539417022362 (127.0.0.1) 12.02ms
+[I 181013 15:50:25 web:2162] 200 GET /piccode?prefix_id=1539417022362&current_id=1539417025145 (127.0.0.1) 12.01ms
+[I 181013 15:50:27 web:2162] 200 GET /piccode?prefix_id=1539417025145&current_id=1539417027249 (127.0.0.1) 11.01ms
+[I 181013 15:50:28 web:2162] 200 GET /piccode?prefix_id=1539417027249&current_id=1539417028266 (127.0.0.1) 12.01ms
+[I 181013 15:50:28 web:2162] 200 GET /piccode?prefix_id=1539417028266&current_id=1539417028817 (127.0.0.1) 11.99ms
+[I 181013 15:50:29 web:2162] 200 GET /piccode?prefix_id=1539417028817&current_id=1539417029297 (127.0.0.1) 11.02ms
+[I 181013 15:50:29 web:2162] 200 GET /piccode?prefix_id=1539417029297&current_id=1539417029794 (127.0.0.1) 12.02ms
+[I 181013 15:50:30 web:2162] 200 GET /piccode?prefix_id=1539417029794&current_id=1539417030240 (127.0.0.1) 12.01ms
+[I 181013 15:50:30 web:2162] 200 GET /piccode?prefix_id=1539417030240&current_id=1539417030656 (127.0.0.1) 11.02ms
+[I 181013 15:50:31 web:2162] 200 GET /piccode?prefix_id=1539417030656&current_id=1539417031121 (127.0.0.1) 13.99ms
+[I 181013 15:50:31 web:2162] 200 GET /piccode?prefix_id=1539417031121&current_id=1539417031625 (127.0.0.1) 12.00ms
+[I 181013 15:50:32 web:2162] 200 GET /piccode?prefix_id=1539417031625&current_id=1539417032041 (127.0.0.1) 11.00ms
+[I 181013 15:50:32 web:2162] 200 GET /piccode?prefix_id=1539417032041&current_id=1539417032633 (127.0.0.1) 11.02ms
+[I 181013 15:50:32 web:2162] 200 GET /piccode?prefix_id=1539417032633&current_id=1539417032826 (127.0.0.1) 11.01ms
+[I 181013 15:50:33 web:2162] 200 GET /piccode?prefix_id=1539417032826&current_id=1539417033001 (127.0.0.1) 12.01ms
+[I 181013 15:50:33 web:2162] 200 GET /piccode?prefix_id=1539417033001&current_id=1539417033192 (127.0.0.1) 10.01ms
+[I 181013 15:50:33 web:2162] 200 GET /piccode?prefix_id=1539417033192&current_id=1539417033377 (127.0.0.1) 11.01ms
+[I 181013 15:50:33 web:2162] 200 GET /piccode?prefix_id=1539417033377&current_id=1539417033545 (127.0.0.1) 14.01ms
+[I 181013 15:50:33 web:2162] 200 GET /piccode?prefix_id=1539417033545&current_id=1539417033866 (127.0.0.1) 12.00ms
+[I 181013 15:50:34 web:2162] 200 GET /piccode?prefix_id=1539417033866&current_id=1539417034065 (127.0.0.1) 14.02ms
+[I 181013 15:50:35 web:2162] 200 GET /piccode?prefix_id=1539417034065&current_id=1539417035009 (127.0.0.1) 11.01ms
+[I 181013 15:53:38 web:2162] 304 GET /static/js/register.js (127.0.0.1) 1.00ms
+[I 181013 15:53:38 web:2162] 200 GET /piccode?prefix_id=&current_id=1539417218749 (127.0.0.1) 14.01ms
+[I 181013 15:53:49 web:2162] 200 POST /register (127.0.0.1) 2.00ms
+[I 181013 15:53:49 web:2162] 200 GET / (127.0.0.1) 12.01ms
+[I 181013 15:53:50 web:2162] 200 GET /static/css/common.css (127.0.0.1) 35.14ms
+[I 181013 15:53:50 web:2162] 200 GET /static/js/common_js.js (127.0.0.1) 14.01ms
+[I 181013 15:53:50 web:2162] 200 GET /static/js/footer.js (127.0.0.1) 32.07ms
+[W 181013 15:53:50 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 4.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/images/logo.png (127.0.0.1) 30.09ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_11.jpg (127.0.0.1) 12.09ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_12.jpg (127.0.0.1) 2.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_13.jpg (127.0.0.1) 1.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/css/style.css (127.0.0.1) 2.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/js/jquery.SuperSlide.2.1.1.js (127.0.0.1) 3.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_15.jpg (127.0.0.1) 3.01ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_34.jpg (127.0.0.1) 2.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_58.jpg (127.0.0.1) 2.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_57.jpg (127.0.0.1) 2.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/js/jquery-1.8.3.min.js (127.0.0.1) 51.04ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_56.jpg (127.0.0.1) 32.03ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_54.jpg (127.0.0.1) 3.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_51.jpg (127.0.0.1) 2.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_52.jpg (127.0.0.1) 2.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_50.jpg (127.0.0.1) 3.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_55.jpg (127.0.0.1) 2.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_53.jpg (127.0.0.1) 3.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_16.jpg (127.0.0.1) 2.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_19.jpg (127.0.0.1) 3.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_44.jpg (127.0.0.1) 3.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_17.jpg (127.0.0.1) 2.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/images/bk_img_19.png (127.0.0.1) 3.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_25.jpg (127.0.0.1) 2.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_22.jpg (127.0.0.1) 3.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_21.jpg (127.0.0.1) 4.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_24.jpg (127.0.0.1) 2.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/images/AD_03.png (127.0.0.1) 47.03ms
+[I 181013 15:53:50 web:2162] 200 GET /static/images/AD_04.png (127.0.0.1) 39.03ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_31.jpg (127.0.0.1) 2.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/images/bk_img_14.png (127.0.0.1) 38.03ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_32.jpg (127.0.0.1) 1.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/images/AD_06.png (127.0.0.1) 33.02ms
+[I 181013 15:53:50 web:2162] 200 GET /static/images/indexhead_sprite.png (127.0.0.1) 3.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_43.jpg (127.0.0.1) 2.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_41.jpg (127.0.0.1) 3.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_42.jpg (127.0.0.1) 2.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/images/slider-arrow.png (127.0.0.1) 20.02ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_33.jpg (127.0.0.1) 3.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/images/bk_img_22.png (127.0.0.1) 2.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/p_37.jpg (127.0.0.1) 5.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/products/logo/34.jpg (127.0.0.1) 3.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/images/fo-logo.jpg (127.0.0.1) 1.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/images/qd.jpg (127.0.0.1) 17.01ms
+[W 181013 15:53:50 web:2162] 404 GET /images/Service1.png (127.0.0.1) 1.00ms
+[W 181013 15:53:50 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 0.99ms
+[W 181013 15:53:50 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 2.00ms
+[W 181013 15:53:50 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 2.00ms
+[W 181013 15:53:50 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 1.00ms
+[W 181013 15:53:50 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 1.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/images/homecart.png (127.0.0.1) 103.07ms
+[I 181013 15:53:50 web:2162] 200 GET /static/images/indexhead_sprite.png?1379671 (127.0.0.1) 4.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/AD/ad-1.jpg (127.0.0.1) 251.18ms
+[I 181013 15:53:50 web:2162] 200 GET /static/images/Service3-1.png (127.0.0.1) 2.00ms
+[I 181013 15:53:50 web:2162] 200 GET /static/images/muen_bg_03.png (127.0.0.1) 10.01ms
+[I 181013 15:53:50 web:2162] 200 GET /static/AD/ad-2.jpg (127.0.0.1) 303.22ms
+[I 181013 15:53:55 web:2162] 200 GET /register.html (127.0.0.1) 4.01ms
+[I 181013 15:53:55 web:2162] 200 GET /piccode?prefix_id=&current_id=1539417235265 (127.0.0.1) 17.01ms
+[I 181013 15:55:54 web:2162] 200 POST /register (127.0.0.1) 54.09ms
+[I 181013 15:55:54 web:2162] 304 GET /static/js/register.js (127.0.0.1) 1.00ms
+[I 181013 15:55:54 web:2162] 200 GET /piccode?prefix_id=&current_id=1539417354914 (127.0.0.1) 15.03ms
+[I 181013 15:57:09 web:2162] 200 POST /register (127.0.0.1) 1.00ms
+[I 181013 15:57:09 web:2162] 304 GET / (127.0.0.1) 9.01ms
+[W 181013 15:57:09 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 5.01ms
+[W 181013 15:57:10 web:2162] 404 GET /images/Service1.png (127.0.0.1) 1.00ms
+[W 181013 15:57:10 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 2.00ms
+[W 181013 15:57:10 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 3.00ms
+[W 181013 15:57:10 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 2.00ms
+[W 181013 15:57:10 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 1.00ms
+[W 181013 15:57:10 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 1.00ms
+[I 181013 15:57:11 web:2162] 304 GET /static/js/register.js (127.0.0.1) 1.00ms
+[I 181013 15:57:11 web:2162] 200 GET /piccode?prefix_id=&current_id=1539417431449 (127.0.0.1) 17.01ms
+[I 181013 16:08:02 web:2162] 200 GET /piccode?prefix_id=&current_id=1539418082500 (127.0.0.1) 20.01ms
+[I 181013 16:31:03 web:2162] 200 GET /piccode?prefix_id=1539418082500&current_id=1539419463133 (127.0.0.1) 22.02ms
+[D 181015 14:38:59 selector_events:65] Using selector: SelectSelector
+[I 181015 14:39:15 web:2162] 304 GET / (127.0.0.1) 76.24ms
+[W 181015 14:39:16 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 105.07ms
+[W 181015 14:39:16 web:2162] 404 GET /images/Service1.png (127.0.0.1) 1.00ms
+[W 181015 14:39:16 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 1.00ms
+[W 181015 14:39:16 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 1.00ms
+[W 181015 14:39:16 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 2.00ms
+[W 181015 14:39:16 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 1.00ms
+[W 181015 14:39:16 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 1.02ms
+[W 181015 14:39:16 web:2162] 404 GET /favicon.ico (127.0.0.1) 2.00ms
+[W 181015 14:39:20 web:2162] 404 GET /Home.html (127.0.0.1) 1.00ms
+[W 181015 14:39:23 web:2162] 404 GET /Home.html (127.0.0.1) 1.00ms
+[I 181015 14:41:13 web:2162] 200 GET /login.html (127.0.0.1) 299.21ms
+[I 181015 14:41:13 web:2162] 200 GET /static/images/login-pic.jpg (127.0.0.1) 125.35ms
+[I 181015 14:41:14 web:2162] 200 GET /static/images/l_06.png (127.0.0.1) 13.01ms
+[I 181015 14:41:14 web:2162] 200 GET /static/images/l_03.png (127.0.0.1) 9.00ms
+[I 181015 14:41:26 web:2162] 304 GET /login.html (127.0.0.1) 0.00ms
+[I 181015 14:45:59 autoreload:199] D:\Git_first\shop_web\handlers\BaseHandler.py modified; restarting server
+[D 181015 14:45:59 selector_events:65] Using selector: SelectSelector
+[I 181015 14:48:04 autoreload:199] D:\Git_first\shop_web\handlers\goods.py modified; restarting server
+[D 181015 14:48:04 selector_events:65] Using selector: SelectSelector
+[I 181015 15:08:46 autoreload:199] D:\Git_first\shop_web\handlers\user.py modified; restarting server
+[D 181015 15:12:01 selector_events:65] Using selector: SelectSelector
+[I 181015 15:12:02 web:2162] 304 GET /login.html (127.0.0.1) 160.11ms
+[I 181015 15:12:10 web:2162] 304 GET / (127.0.0.1) 13.01ms
+[W 181015 15:12:11 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 5.00ms
+[W 181015 15:12:11 web:2162] 404 GET /images/Service1.png (127.0.0.1) 1.00ms
+[W 181015 15:12:11 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 2.00ms
+[W 181015 15:12:11 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 2.00ms
+[W 181015 15:12:11 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 1.00ms
+[W 181015 15:12:11 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 2.00ms
+[W 181015 15:12:11 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 2.00ms
+[I 181015 15:13:23 web:2162] 304 GET /register.html (127.0.0.1) 2.00ms
+[I 181015 15:13:23 web:2162] 200 GET /static/js/register.js (127.0.0.1) 2.00ms
+[I 181015 15:13:24 web:2162] 200 GET /piccode?prefix_id=&current_id=1539587603180 (127.0.0.1) 1455.10ms
+[I 181015 15:13:25 web:2162] 200 GET /piccode?prefix_id=1539587603180&current_id=1539587605589 (127.0.0.1) 13.01ms
+[I 181015 15:17:56 autoreload:199] D:\Git_first\shop_web\urls.py modified; restarting server
+[D 181015 15:17:56 selector_events:65] Using selector: SelectSelector
+[I 181015 15:18:01 web:2162] 304 GET / (127.0.0.1) 13.01ms
+[W 181015 15:18:01 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 4.00ms
+[W 181015 15:18:01 web:2162] 404 GET /images/Service1.png (127.0.0.1) 2.00ms
+[W 181015 15:18:01 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 2.00ms
+[W 181015 15:18:01 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 2.00ms
+[W 181015 15:18:01 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 2.00ms
+[W 181015 15:18:01 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 2.00ms
+[W 181015 15:18:01 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 2.00ms
+[I 181015 15:23:09 web:2162] 304 GET / (127.0.0.1) 15.01ms
+[W 181015 15:23:10 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 3.00ms
+[W 181015 15:23:10 web:2162] 404 GET /images/Service1.png (127.0.0.1) 1.00ms
+[W 181015 15:23:10 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 2.00ms
+[W 181015 15:23:10 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 2.00ms
+[W 181015 15:23:10 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 1.00ms
+[W 181015 15:23:10 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 2.00ms
+[W 181015 15:23:10 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 1.00ms
+[D 181015 15:23:32 selector_events:65] Using selector: SelectSelector
+[I 181015 15:23:39 web:2162] 304 GET / (127.0.0.1) 9.01ms
+[W 181015 15:23:39 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 3.00ms
+[W 181015 15:23:39 web:2162] 404 GET /images/Service1.png (127.0.0.1) 2.00ms
+[W 181015 15:23:39 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 1.00ms
+[W 181015 15:23:39 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 1.00ms
+[W 181015 15:23:39 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 2.00ms
+[W 181015 15:23:39 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 4.01ms
+[W 181015 15:23:39 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 2.00ms
+[I 181015 15:24:07 web:2162] 304 GET /static/js/register.js (127.0.0.1) 151.11ms
+[I 181015 15:24:08 web:2162] 200 GET /piccode?prefix_id=&current_id=1539588247162 (127.0.0.1) 1091.35ms
+[I 181015 15:25:19 web:2162] 200 GET /login.html (127.0.0.1) 2.00ms
+[I 181015 15:25:19 web:2162] 200 GET /static/js/login.js (127.0.0.1) 1.00ms
+[E 181015 15:25:25 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:25:25 web:2162] 500 POST /login (127.0.0.1) 2.02ms
+[E 181015 15:25:26 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:25:26 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:25:26 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:25:26 web:2162] 500 POST /login (127.0.0.1) 1.98ms
+[E 181015 15:25:27 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:25:27 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:25:27 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:25:27 web:2162] 500 POST /login (127.0.0.1) 1.02ms
+[E 181015 15:25:27 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:25:27 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:25:27 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:25:27 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[D 181015 15:32:35 selector_events:65] Using selector: SelectSelector
+[I 181015 15:32:39 web:2162] 304 GET / (127.0.0.1) 14.01ms
+[W 181015 15:32:41 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 5.00ms
+[W 181015 15:32:41 web:2162] 404 GET /images/Service1.png (127.0.0.1) 1.00ms
+[W 181015 15:32:41 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 1.00ms
+[W 181015 15:32:41 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 1.00ms
+[W 181015 15:32:41 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 1.00ms
+[W 181015 15:32:41 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 1.00ms
+[W 181015 15:32:41 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 1.00ms
+[E 181015 15:32:46 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:32:46 web:2162] 500 POST /login (127.0.0.1) 2.00ms
+[E 181015 15:32:47 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:32:47 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:32:47 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:32:47 web:2162] 500 POST /login (127.0.0.1) 1.02ms
+[E 181015 15:32:48 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:32:48 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:32:48 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:32:48 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:32:48 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:32:48 web:2162] 500 POST /login (127.0.0.1) 1.99ms
+[E 181015 15:32:59 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:32:59 web:2162] 500 POST /login (127.0.0.1) 2.00ms
+[E 181015 15:32:59 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:32:59 web:2162] 500 POST /login (127.0.0.1) 1.02ms
+[E 181015 15:32:59 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:32:59 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:32:59 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:32:59 web:2162] 500 POST /login (127.0.0.1) 1.01ms
+[E 181015 15:33:00 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:33:00 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:33:00 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:33:00 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:33:00 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:33:00 web:2162] 500 POST /login (127.0.0.1) 2.00ms
+[E 181015 15:33:00 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:33:00 web:2162] 500 POST /login (127.0.0.1) 0.99ms
+[E 181015 15:33:00 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:33:00 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:33:01 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:33:01 web:2162] 500 POST /login (127.0.0.1) 1.01ms
+[E 181015 15:33:01 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:33:01 web:2162] 500 POST /login (127.0.0.1) 1.02ms
+[E 181015 15:33:01 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:33:01 web:2162] 500 POST /login (127.0.0.1) 0.99ms
+[E 181015 15:33:01 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:33:01 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:33:01 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:33:01 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:33:01 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:33:02 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:33:02 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:33:02 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:33:02 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:33:02 web:2162] 500 POST /login (127.0.0.1) 1.02ms
+[E 181015 15:33:02 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:33:02 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:34:15 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:34:15 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:34:15 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:34:15 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:34:15 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:34:15 web:2162] 500 POST /login (127.0.0.1) 1.01ms
+[E 181015 15:34:15 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:34:15 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[I 181015 15:35:07 web:2162] 200 GET /login.html (127.0.0.1) 189.13ms
+[E 181015 15:35:12 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:35:12 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:35:13 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:35:13 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:35:13 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:35:13 web:2162] 500 POST /login (127.0.0.1) 1.02ms
+[E 181015 15:35:13 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:35:13 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[I 181015 15:35:15 web:2162] 304 GET / (127.0.0.1) 13.01ms
+[W 181015 15:35:16 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 4.00ms
+[W 181015 15:35:16 web:2162] 404 GET /images/Service1.png (127.0.0.1) 1.00ms
+[W 181015 15:35:16 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 2.00ms
+[W 181015 15:35:16 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 2.00ms
+[W 181015 15:35:16 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 1.00ms
+[W 181015 15:35:16 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 1.00ms
+[W 181015 15:35:16 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 1.00ms
+[I 181015 15:35:18 web:2162] 304 GET /login.html (127.0.0.1) 1.00ms
+[E 181015 15:35:23 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:35:23 web:2162] 500 POST /login (127.0.0.1) 2.00ms
+[E 181015 15:35:24 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:35:24 web:2162] 500 POST /login (127.0.0.1) 1.02ms
+[E 181015 15:35:24 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:35:24 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[I 181015 15:37:47 web:2162] 200 GET / (127.0.0.1) 13.01ms
+[I 181015 15:37:47 web:2162] 200 GET /static/css/common.css (127.0.0.1) 19.01ms
+[I 181015 15:37:47 web:2162] 200 GET /static/js/jquery.SuperSlide.2.1.1.js (127.0.0.1) 16.07ms
+[I 181015 15:37:47 web:2162] 200 GET /static/js/common_js.js (127.0.0.1) 20.05ms
+[I 181015 15:37:47 web:2162] 200 GET /static/js/footer.js (127.0.0.1) 21.25ms
+[I 181015 15:37:47 web:2162] 200 GET /static/css/style.css (127.0.0.1) 7.02ms
+[I 181015 15:37:47 web:2162] 200 GET /static/js/jquery-1.8.3.min.js (127.0.0.1) 28.00ms
+[I 181015 15:37:48 web:2162] 200 GET /static/images/logo.png (127.0.0.1) 39.03ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_12.jpg (127.0.0.1) 20.01ms
+[W 181015 15:37:48 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 2.00ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_11.jpg (127.0.0.1) 20.01ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_15.jpg (127.0.0.1) 56.04ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_34.jpg (127.0.0.1) 50.03ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_13.jpg (127.0.0.1) 14.01ms
+[I 181015 15:37:48 web:2162] 200 GET /static/images/indexhead_sprite.png (127.0.0.1) 9.01ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_58.jpg (127.0.0.1) 8.01ms
+[I 181015 15:37:48 web:2162] 200 GET /static/images/Service3-1.png (127.0.0.1) 10.01ms
+[I 181015 15:37:48 web:2162] 200 GET /static/images/indexhead_sprite.png?1379671 (127.0.0.1) 1.00ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_57.jpg (127.0.0.1) 3.00ms
+[I 181015 15:37:48 web:2162] 200 GET /static/images/muen_bg_03.png (127.0.0.1) 12.01ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_50.jpg (127.0.0.1) 9.01ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_51.jpg (127.0.0.1) 6.00ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_52.jpg (127.0.0.1) 2.00ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_17.jpg (127.0.0.1) 2.00ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_53.jpg (127.0.0.1) 2.00ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_54.jpg (127.0.0.1) 2.00ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_56.jpg (127.0.0.1) 60.04ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_55.jpg (127.0.0.1) 10.01ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_16.jpg (127.0.0.1) 4.00ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_19.jpg (127.0.0.1) 3.00ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_43.jpg (127.0.0.1) 2.00ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_44.jpg (127.0.0.1) 2.00ms
+[I 181015 15:37:48 web:2162] 200 GET /static/images/AD_03.png (127.0.0.1) 44.03ms
+[I 181015 15:37:48 web:2162] 200 GET /static/images/AD_04.png (127.0.0.1) 20.01ms
+[I 181015 15:37:48 web:2162] 200 GET /static/images/bk_img_22.png (127.0.0.1) 4.00ms
+[I 181015 15:37:48 web:2162] 200 GET /static/images/AD_06.png (127.0.0.1) 21.01ms
+[I 181015 15:37:48 web:2162] 200 GET /static/images/bk_img_14.png (127.0.0.1) 19.02ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_41.jpg (127.0.0.1) 2.00ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_42.jpg (127.0.0.1) 2.00ms
+[I 181015 15:37:48 web:2162] 200 GET /static/images/bk_img_19.png (127.0.0.1) 2.00ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_21.jpg (127.0.0.1) 3.00ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_25.jpg (127.0.0.1) 10.01ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_22.jpg (127.0.0.1) 2.00ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_24.jpg (127.0.0.1) 2.00ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_31.jpg (127.0.0.1) 2.00ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_33.jpg (127.0.0.1) 1.00ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_32.jpg (127.0.0.1) 2.00ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/p_37.jpg (127.0.0.1) 4.00ms
+[I 181015 15:37:48 web:2162] 200 GET /static/images/slider-arrow.png (127.0.0.1) 21.02ms
+[I 181015 15:37:48 web:2162] 200 GET /static/images/fo-logo.jpg (127.0.0.1) 4.00ms
+[I 181015 15:37:48 web:2162] 200 GET /static/products/logo/34.jpg (127.0.0.1) 15.01ms
+[W 181015 15:37:48 web:2162] 404 GET /images/Service1.png (127.0.0.1) 1.00ms
+[W 181015 15:37:48 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 3.00ms
+[W 181015 15:37:48 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 3.99ms
+[W 181015 15:37:48 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 3.00ms
+[W 181015 15:37:48 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 6.00ms
+[W 181015 15:37:48 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 3.00ms
+[I 181015 15:37:48 web:2162] 304 GET / (127.0.0.1) 13.01ms
+[I 181015 15:37:48 web:2162] 200 GET /static/images/qd.jpg (127.0.0.1) 90.06ms
+[I 181015 15:37:48 web:2162] 200 GET /static/images/homecart.png (127.0.0.1) 27.02ms
+[W 181015 15:37:48 web:2162] 404 GET /images/Service1.png (127.0.0.1) 2.00ms
+[I 181015 15:37:48 web:2162] 200 GET /static/images/qd.jpg (127.0.0.1) 2.00ms
+[W 181015 15:37:48 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 1.00ms
+[W 181015 15:37:48 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 1.00ms
+[W 181015 15:37:48 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 1.00ms
+[W 181015 15:37:49 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 8.01ms
+[W 181015 15:37:49 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 7.01ms
+[I 181015 15:37:49 web:2162] 200 GET /static/images/homecart.png (127.0.0.1) 3.00ms
+[W 181015 15:37:49 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 1.00ms
+[I 181015 15:37:49 web:2162] 200 GET /static/AD/ad-1.jpg (127.0.0.1) 291.20ms
+[I 181015 15:37:49 web:2162] 200 GET /static/AD/ad-2.jpg (127.0.0.1) 8.01ms
+[I 181015 15:37:49 web:2162] 200 GET /static/AD/ad-2.jpg (127.0.0.1) 119.08ms
+[I 181015 15:37:50 web:2162] 200 GET /login.html (127.0.0.1) 1.00ms
+[I 181015 15:37:50 web:2162] 200 GET /static/css/base.css (127.0.0.1) 11.02ms
+[I 181015 15:37:50 web:2162] 200 GET /static/js/login.js (127.0.0.1) 0.99ms
+[I 181015 15:37:50 web:2162] 200 GET /static/js/jquery-2.1.1.min.js (127.0.0.1) 115.26ms
+[I 181015 15:37:50 web:2162] 200 GET /static/images/login-pic.jpg (127.0.0.1) 88.24ms
+[I 181015 15:37:50 web:2162] 200 GET /static/css/css.css (127.0.0.1) 84.24ms
+[I 181015 15:37:50 web:2162] 200 GET /static/images/l_06.png (127.0.0.1) 1.00ms
+[I 181015 15:37:50 web:2162] 200 GET /static/images/l_03.png (127.0.0.1) 1.00ms
+[E 181015 15:37:55 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:37:55 web:2162] 500 POST /login (127.0.0.1) 1.98ms
+[E 181015 15:37:56 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:37:56 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:37:56 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:37:56 web:2162] 500 POST /login (127.0.0.1) 0.98ms
+[E 181015 15:37:56 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:37:56 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:39:27 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:39:27 web:2162] 500 POST /login (127.0.0.1) 2.02ms
+[I 181015 15:39:29 web:2162] 304 GET /login.html (127.0.0.1) 1.00ms
+[I 181015 15:39:29 web:2162] 200 GET /static/js/login.js (127.0.0.1) 1.00ms
+[E 181015 15:39:45 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:39:45 web:2162] 500 POST /login (127.0.0.1) 3.00ms
+[I 181015 15:39:47 web:2162] 304 GET /login.html (127.0.0.1) 1.00ms
+[I 181015 15:39:47 web:2162] 200 GET /static/js/login.js (127.0.0.1) 2.00ms
+[I 181015 15:39:49 web:2162] 304 GET /login.html (127.0.0.1) 1.00ms
+[I 181015 15:39:49 web:2162] 304 GET /static/js/login.js (127.0.0.1) 2.00ms
+[E 181015 15:39:51 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:39:51 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:39:51 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:39:51 web:2162] 500 POST /login (127.0.0.1) 2.00ms
+[E 181015 15:39:51 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:39:51 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:39:51 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:39:51 web:2162] 500 POST /login (127.0.0.1) 2.00ms
+[E 181015 15:39:52 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:39:52 web:2162] 500 POST /login (127.0.0.1) 1.01ms
+[I 181015 15:40:46 web:2162] 304 GET / (127.0.0.1) 9.01ms
+[W 181015 15:40:47 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 3.00ms
+[W 181015 15:40:47 web:2162] 404 GET /images/Service1.png (127.0.0.1) 2.00ms
+[W 181015 15:40:47 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 1.00ms
+[W 181015 15:40:47 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 1.00ms
+[W 181015 15:40:47 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 1.00ms
+[W 181015 15:40:47 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 1.00ms
+[W 181015 15:40:47 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 2.00ms
+[W 181015 15:40:47 web:2162] 404 GET /favicon.ico (127.0.0.1) 3.00ms
+[I 181015 15:40:48 web:2162] 304 GET /login.html (127.0.0.1) 2.00ms
+[I 181015 15:40:48 web:2162] 304 GET /static/js/login.js (127.0.0.1) 1.00ms
+[E 181015 15:40:51 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:40:51 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:40:52 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:40:52 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:40:52 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:40:52 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:40:52 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:40:52 web:2162] 500 POST /login (127.0.0.1) 1.99ms
+[E 181015 15:40:52 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:40:52 web:2162] 500 POST /login (127.0.0.1) 1.02ms
+[E 181015 15:40:52 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:40:52 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[I 181015 15:41:08 web:2162] 304 GET /login.html (127.0.0.1) 1.00ms
+[I 181015 15:41:08 web:2162] 200 GET /static/js/login.js (127.0.0.1) 1.00ms
+[E 181015 15:41:13 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:41:13 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:41:17 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:41:17 web:2162] 500 POST /login (127.0.0.1) 2.00ms
+[I 181015 15:42:49 web:2162] 304 GET /login.html (127.0.0.1) 1.00ms
+[I 181015 15:42:49 web:2162] 200 GET /static/js/login.js (127.0.0.1) 2.00ms
+[E 181015 15:42:56 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:42:56 web:2162] 500 POST /login (127.0.0.1) 2.02ms
+[E 181015 15:42:59 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:42:59 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[I 181015 15:43:31 web:2162] 304 GET /login.html (127.0.0.1) 0.99ms
+[I 181015 15:43:31 web:2162] 200 GET /static/js/login.js (127.0.0.1) 2.00ms
+[E 181015 15:43:35 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:43:35 web:2162] 500 POST /login (127.0.0.1) 1.02ms
+[E 181015 15:43:36 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:43:36 web:2162] 500 POST /login (127.0.0.1) 1.02ms
+[E 181015 15:43:36 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:43:36 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:43:36 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:43:36 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:43:36 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:43:36 web:2162] 500 POST /login (127.0.0.1) 1.02ms
+[E 181015 15:43:37 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:43:37 web:2162] 500 POST /login (127.0.0.1) 0.99ms
+[E 181015 15:43:38 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:43:38 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[E 181015 15:43:38 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:43:38 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[D 181015 15:44:37 selector_events:65] Using selector: SelectSelector
+[I 181015 15:44:45 web:2162] 304 GET / (127.0.0.1) 14.01ms
+[W 181015 15:44:46 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 3.00ms
+[W 181015 15:44:46 web:2162] 404 GET /images/Service1.png (127.0.0.1) 2.00ms
+[W 181015 15:44:46 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 2.00ms
+[W 181015 15:44:46 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 1.00ms
+[W 181015 15:44:46 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 2.00ms
+[W 181015 15:44:46 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 2.00ms
+[W 181015 15:44:46 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 2.00ms
+[I 181015 15:44:47 web:2162] 304 GET /login.html (127.0.0.1) 191.14ms
+[I 181015 15:44:48 web:2162] 304 GET /static/js/login.js (127.0.0.1) 2.00ms
+[E 181015 15:44:51 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:44:51 web:2162] 500 POST /login (127.0.0.1) 1.02ms
+[I 181015 15:48:50 autoreload:199] D:\Git_first\shop_web\handlers\BaseHandler.py modified; restarting server
+[D 181015 15:48:51 selector_events:65] Using selector: SelectSelector
+[I 181015 15:48:55 web:2162] 304 GET / (127.0.0.1) 14.01ms
+[W 181015 15:48:55 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 4.00ms
+[W 181015 15:48:55 web:2162] 404 GET /images/Service1.png (127.0.0.1) 2.00ms
+[W 181015 15:48:55 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 2.00ms
+[W 181015 15:48:55 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 2.00ms
+[W 181015 15:48:56 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 4.00ms
+[W 181015 15:48:56 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 1.00ms
+[W 181015 15:48:56 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 3.00ms
+[I 181015 15:48:57 web:2162] 304 GET /login.html (127.0.0.1) 167.12ms
+[I 181015 15:48:57 web:2162] 200 GET /static/js/login.js (127.0.0.1) 2.00ms
+[E 181015 15:49:02 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:49:02 web:2162] 500 POST /login (127.0.0.1) 2.01ms
+[I 181015 15:50:04 web:2162] 304 GET /login.html (127.0.0.1) 1.00ms
+[I 181015 15:50:04 web:2162] 304 GET /static/js/login.js (127.0.0.1) 1.00ms
+[I 181015 15:50:07 web:2162] 304 GET / (127.0.0.1) 12.01ms
+[W 181015 15:50:07 web:2162] 404 GET /static/images/tianma.png (127.0.0.1) 5.00ms
+[W 181015 15:50:07 web:2162] 404 GET /images/Service1.png (127.0.0.1) 2.00ms
+[W 181015 15:50:07 web:2162] 404 GET /static/images/Service1.png (127.0.0.1) 1.00ms
+[W 181015 15:50:07 web:2162] 404 GET /static/images/erweim.jpg (127.0.0.1) 1.00ms
+[W 181015 15:50:07 web:2162] 404 GET /static/AD/ad-3.jpg (127.0.0.1) 1.00ms
+[W 181015 15:50:07 web:2162] 404 GET /static/AD/ad-6.jpg (127.0.0.1) 1.00ms
+[W 181015 15:50:07 web:2162] 404 GET /static/AD/ad-7.jpg (127.0.0.1) 1.00ms
+[E 181015 15:50:11 web:1670] Uncaught exception POST /login (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:9000', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\Git_first\DJgo\lib\site-packages\tornado\web.py", line 1590, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\Git_first\shop_web\handlers\user.py", line 103, in post
+        data = self.handerjson()
+      File "D:\Git_first\shop_web\handlers\BaseHandler.py", line 14, in handerjson
+        json_data = json_data.loads(json_data)
+    AttributeError: 'str' object has no attribute 'loads'
+[E 181015 15:50:11 web:2162] 500 POST /login (127.0.0.1) 1.00ms
+[I 181015 15:51:19 autoreload:199] manage.py modified; restarting server
